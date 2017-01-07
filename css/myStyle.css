@@ -19,7 +19,7 @@ p.logo
 	font-size:55px;
 	color:white;
 	text-shadow: 4px 4px 8px #808080;
-	position: fixed; 
+	position: absolute; 
 	top: 155px; 
 	left: 0; 
 	width: 35%; 
@@ -124,8 +124,16 @@ img.footer
 	color:#fff!important;background-color:#2196F3!important
 	}
 
-
 hr {
+    width:100%; 
+    margin:0 auto; 
+    border:0px none white; 
+    border-top:1px solid lightgrey; 
+
+}
+
+
+hr.footer {
     width:50%; 
     margin:0 auto; 
     border:0px none white; 
