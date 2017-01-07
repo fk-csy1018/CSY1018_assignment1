@@ -6,8 +6,53 @@
 </head>
 
 <body>
+<!-- The Audio file (mp3) that I used is an Unlicensed mp3 (bensound-rumble.mp3) that i downloaded from
+http://http://www.bensound.com/ . I put this on my page as a background music with the use of the default
+HTML5 player and the attributes of autoplay in order to start on the background automatically during the time
+that it takes for my page to load fully, plus loop in order to play nonstop (for those who enjoy the specific song).
+I did use the ID of "bg_music" on the <audio> tag because I am planning to put some extra effort if <br>
+there is time and give the use the ability to pause/stop the music with some buttons somewhere on site.
+For now, since there are no buttons either, I have the hidden="true" in order to just make it invisible on
+page. -->
+<audio id="bg_music" autoplay loop autobuffer="autobuffer" hidden="true">
+<source type="audio/mpeg" src="bensound-rumble.mp3">
+</audio>
+<!-- I use the IMG html tag, with the characteristics of the class "logo" in order to set an image on the
+top of my page as the logo of my website, and in order to make it look more like a "website logo" i created
+an IMG class named as "logo" on my CSS and added few cool characteristics as the "border-radius: 50%;" so that
+it adds that circle cut effect (that could alternativly do on an Image Editor and save the "around the circle"
+area as a transparent background. I also added the position relative attribute in order to be able to use a 2nd
+CSS rule and put a text (as a Welcome text in the beggining, then changed my mind and replaced it with just a
+"website title"). I did this because i wanted to achieve to put the text ON TOP of the image in order to make it 
+look like a real website logo. -->
 <img class="logo" src="images/logo.png" /><br />
+<!-- Text added on a <p> styled with some characteristics to make it look more like a logo, and placed above the image
+that I use as my webpage's logo. I also used a font from "Google Fonts" in order to make it look a bit better. -->
 <p class="logo">Gill Bates</p>
+<!-- I created my website's Navigation Bar as a list of elements (that work as links), then I make it act as a
+Navigation Bar for my website by the use of CSS styles to make them arrange on the same raw with a specific appereance.
+i set the ID of this to nav, so everything on this unordered list is going to get characteristics from the specific
+styleset that I created for "nav" on my CSS file. --> 
+	<ul class="w3-navbar w3-blue">
+    <!-- I am Listing my Links one by one on as linked elements in order to create my Navigation bar. -->
+    	<li><a href="index.html">Home</a></li>
+        <li><a href="bio.html">Bio</a></li>
+        <li><a href="cv.html">CV</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <!-- List is complete, now the style in order to make that ordered list appear in 1 line as a navigation bar
+        is already done through my CSS file, so I'm closing the ul tag and the section of it with </ul></div> -->
+    </ul>
+<br /><br /><br /><br /><br />
 
+
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+<!-- Added Horizontal Rule just for the style, to distinguish my main content from the footer.
+And created the class footer on my CSS to add some extra attributes in order to place the HR always on the bottom of the page according
+to the browser's window. -->
+<hr>
+<p class="footer">Copyright ©2016 by The <a href="http://www.northampton.ac.uk/">University of Northampton</a>, All Rights Reserved.</p>
+<a href="http://validator.w3.org/check?uri=referer"><img class="footer"
+          src="http://www.w3.org/Icons/valid-xhtml10"
+          alt="Valid XHTML 1.0!" height="31" width="88" /></a>
 </body>
 </html>
