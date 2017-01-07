@@ -51,6 +51,26 @@ img.footer
     margin-right: auto
 }
 
+/* unvisited link */
+a:link {
+    color: white;
+}
+
+/* visited link */
+a:visited {
+    color: white;
+}
+
+/* mouse over link */
+a:hover {
+    color: #ffffcc;
+}
+
+/* selected link */
+a:active {
+    color: white;
+}
+
 
 .w3-navbar{
 	list-style-type:none;margin:0;padding:0;overflow:hidden
