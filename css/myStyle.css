@@ -83,11 +83,15 @@ img.logo
 
 img.footer 
 {
-	display: block;
+    display: inline-block;
     margin-left: auto;
-    margin-right: auto
+    margin-right: auto;
+    height: 30px;
 }
 
+#validations{
+    text-align:center;
+}
 
 .w3-navbar{
 	list-style-type:none;margin:0;padding:0;overflow:hidden
