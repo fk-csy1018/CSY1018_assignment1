@@ -39,7 +39,7 @@ CSS rule and put a text (as a Welcome text in the beggining, then changed my min
 "website title"). I did this because i wanted to achieve to put the text ON TOP of the image in order to make it 
 look like a real website logo.
 
-Text added on a \<p>\ class logo, styled with some characteristics to make it look more like a logo, and placed above the image
+Text added on a \<p> class logo, styled with some characteristics to make it look more like a logo, and placed above the image
 that I use as my webpage's logo. I also used a font from "Google Fonts" in order to make it look a bit better.
 
 I created my website's Navigation Bar as a list of elements (that work as links), then I make it act as a
@@ -48,6 +48,6 @@ i set the ID of this to nav, so everything on this unordered list is going to ge
 styleset that I created for "nav" on my CSS file.
 
 I am Listing my Links one by one on as linked elements in order to create my Navigation bar. Styling was taken from W3Schools. Link: http://www.w3schools.com/w3css/w3css_navigation.asp
-I use <br /> to get 1 line down just in order to push my footer on a specific height according to my taste.
+I use \*<br />\* to get 1 line down just in order to push my footer on a specific height according to my taste.
 
-After trying to validate my HTML5 code, i got a warning about the html tag and language, so i added lang="en".
+After trying to validate my HTML5 code, i got a warning about the html tag and language, so i changed <html> to <html lang="en"> in order to fix it.
