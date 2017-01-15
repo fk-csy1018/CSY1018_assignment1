@@ -156,13 +156,13 @@ img.footer
     display: flex;
     width: 1200px;
     height: auto;
-	padding-left: 10%;
+	padding-left: 4%;
 }
 
 .flex-item {
-    width: 600px;
+    width: 550px;
     height: 100px;
-    margin: 10px;
+    margin: 5px;
 }
 
 hr {
