@@ -19,9 +19,12 @@ The way I implemented my website was done on steps.
 
 Started by creating my index.html and myStyle.css file. The Index document as a base for my project that will have (and share) the structure that I would like to use on all of my pages, same as the CSS file that will have all the CSS rules that i need in order to achieve the style I would like my webpage to have.
 
+Linking my HTML page with the CSS style (myStyle.css) i created on /css/ folder.
+
 Declaring the "Header" section of my page. The static content i need it to have on top of every page.
 I include there the code for the music as it's not an element that will appear on page and I consider it as part of the header page.
 However, this could be placed anywhere on the HTML file.
+
 
 The Audio file (mp3) that I used is an Unlicensed mp3 (bensound-rumble.mp3) that i downloaded from
 http://http://www.bensound.com/ . I put this on my page as a background music with the use of the default
@@ -82,3 +85,10 @@ Adding a CSS Flexbox because it is required by the assignment. Code was taken fr
 My Flexbox consists of flex containers and flex items in order to create a 3 collumn sorting like if i had my data on a table.
 
 Then I move to the Contact page.
+
+Same code as Index.html in order to generate the page style, then I am adding the content of it.
+
+Contact Form was taken from https://codepen.io/ssbalakumar/pen/uzDIA example, and modified it in order to adjust it to my webpage's needs.<br>
+Original example had more input boxes, and the method it used was different. I changed the code and use method="get" and action="mailto:email" in order for the form to actually open an Email Client locally on your computer and try to send the email.
+Since i took advantage of that ready code, i put it's CSS info on a different css file (contact.css) and link it, in order to show that you can use more than 1 .css files on an html page, instead of copying the code of it inside my main CSS style.
+
