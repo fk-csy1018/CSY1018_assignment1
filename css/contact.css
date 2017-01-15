@@ -1,4 +1,7 @@
-/* COntact Form was taken from https://codepen.io/ssbalakumar/pen/uzDIA example. */
+/* Contact Form was taken from https://codepen.io/ssbalakumar/pen/uzDIA example. 
+Original example had more input boxes, and the method it used was different.
+I changed the code and use method="get" and action="mailto:email" in order for
+the form to actually open an Email Client locally on your computer and try to send the email. */
 
 * {
 	box-sizing:border-box;
