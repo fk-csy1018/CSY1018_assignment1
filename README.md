@@ -1,10 +1,10 @@
 # CSY1018_assignment1
-# Cover 
+# Cover Sheet
 
-Name: Kitsantas Fotios    
+Full Name: Kitsantas Fotios    
 Student ID: 17421808    
 GitHub Repository: https://github.com/fkitsantas/CSY1018_assignment1    
-Website Link (on GitHub): https://fkitsantas.github.io/CSY1018_assignment1/    
+GitHub ‘live’ URL: https://fkitsantas.github.io/CSY1018_assignment1/    
 
 <img src="images/cover.png" alt="Cover" />
 
@@ -188,7 +188,7 @@ Then I am adding the code to show the favicon as it is requested as an extra to 
 <img src="images/valid-contactCSS.jpg" alt="Valid CSS" />
 
 # Conclusion
-Overall it was an actually difficult project due to the really strict restrictions we had into what to use and what not from the standard HTML5 features, plus the webpage should be only html5 + CSS based so you had to improvise on how to achieve things you are familiar of seeing them happening with the combination of other technologies as JavaScript or iFrames. I spent around 3 weeks on this assignment. More than 50 hours of doing changes into my code structure in total, and after 81 commits i think i made it exactly as I had it on mind. My original thoughts about the Music on the background was to have a small button of pause/play somewhere positioned next to the footer images on my footer. I didn't actually make it to do this as it needs JavaScript so the bg_music ID was left unused but didn't remove it on purpose as it is something that I had in mind to do and i describe it on my code as well. Testing went OK and came up after checking on different resolutions to the point that everything looks smooth and the webpage looks to not have any sort of issues.
+Overall it was an actually difficult project due to the really strict restrictions we had into what to use and what not from the standard HTML5 features, plus the webpage should be only html5 + CSS based so you had to improvise on how to achieve things you are familiar of seeing them happening with the combination of other technologies as JavaScript or iFrames. I spent around 3 weeks on this assignment. More than 50 hours of doing changes into my code structure in total, and after 82 commits i think i made it exactly as I had it on mind. My original thoughts about the Music on the background was to have a small button of pause/play somewhere positioned next to the footer images on my footer. I didn't actually make it to do this as it needs JavaScript so the bg_music ID was left unused but didn't remove it on purpose as it is something that I had in mind to do and i describe it on my code as well. Testing went OK and came up after checking on different resolutions to the point that everything looks smooth and the webpage looks to not have any sort of issues.
 
 # References
 
