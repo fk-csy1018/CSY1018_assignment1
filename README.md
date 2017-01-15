@@ -48,6 +48,6 @@ i set the ID of this to nav, so everything on this unordered list is going to ge
 styleset that I created for "nav" on my CSS file.
 
 I am Listing my Links one by one on as linked elements in order to create my Navigation bar. Styling was taken from W3Schools. Link: http://www.w3schools.com/w3css/w3css_navigation.asp
-I use \*<br />\* to get 1 line down just in order to push my footer on a specific height according to my taste.
+I use < br /> to get 1 line down just in order to push my footer on a specific height according to my taste.
 
 After trying to validate my HTML5 code, i got a warning about the html tag and language, so i changed <html> to <html lang="en"> in order to fix it.
