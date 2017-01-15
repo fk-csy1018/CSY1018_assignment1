@@ -133,3 +133,8 @@ Then I am setting the style of the Image and Text on my "Bio" page. Placing the 
 
 Last, after checking the list of assignment's requirements i created a favicon with the use of Favicon Generator on http://www.favicon-generator.org/
 Then I am adding the code to show the favicon as it is requested as an extra to the assignment. Code was added inside < head > < / head> on every page.
+
+## Navigation Diagram
+<img src="images/navigation.jpg" alt="Navigation Diagram" />
+
+## Mockups/Wireframes
