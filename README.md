@@ -187,13 +187,13 @@ Then I am adding the code to show the favicon as it is requested as an extra to 
 <img src="images/valid-contactCSS.jpg" alt="Valid CSS" />
 
 ## Conclusion
-Overall it was an actually difficult project due to the really strict restrictions we had into what to use and what not from the standard HTML5 features, plus the webpage should be only html5 + CSS based so you had to improvise on how to achieve things you are familiar of seeing them happening with the combination of other technologies as JavaScript or iFrames. I spent around 3 weeks on this assignment. More than 50 hours of doing changes into my code structure in total, and after 78 commits i think i made it exactly as I had it on mind. My original thoughts about the Music on the background was to have a small button of pause/play somewhere positioned next to the footer images on my footer. I didn't actually make it to do this as it needs JavaScript so the bg_music ID was left unused but didn't remove it on purpose as it is something that I had in mind to do and i describe it on my code as well. Testing went OK and came up after checking on different resolutions to the point that everything looks smooth and the webpage looks to not have any sort of issues.
+Overall it was an actually difficult project due to the really strict restrictions we had into what to use and what not from the standard HTML5 features, plus the webpage should be only html5 + CSS based so you had to improvise on how to achieve things you are familiar of seeing them happening with the combination of other technologies as JavaScript or iFrames. I spent around 3 weeks on this assignment. More than 50 hours of doing changes into my code structure in total, and after 79 commits i think i made it exactly as I had it on mind. My original thoughts about the Music on the background was to have a small button of pause/play somewhere positioned next to the footer images on my footer. I didn't actually make it to do this as it needs JavaScript so the bg_music ID was left unused but didn't remove it on purpose as it is something that I had in mind to do and i describe it on my code as well. Testing went OK and came up after checking on different resolutions to the point that everything looks smooth and the webpage looks to not have any sort of issues.
 
 ## References
 
 - http://www.bensound.com/ (Music mp3 file named as "Bensound-Rumble" , of the track named "Rumble". License Free.)
-- http://www.w3schools.com/w3css/w3css_navigation.asp
-- http://www.w3schools.com/css/tryit.asp?filename=trycss3_flexbox_flexline
-- https://codepen.io/ssbalakumar/pen/uzDIA
-- http://www.favicon-generator.org/
-- https://validator.w3.org/
+- http://www.w3schools.com/w3css/w3css_navigation.asp (W3Schools - Navigation Bar)
+- http://www.w3schools.com/css/tryit.asp?filename=trycss3_flexbox_flexline (W3Schools - FlexBox Example)
+- https://codepen.io/ssbalakumar/pen/uzDIA (Public Contact Form Example posted on codepen.io)
+- http://www.favicon-generator.org/ (Used this to generate my favicon.ico)
+- https://validator.w3.org/ (Used to validate my webpages & my css, and got the images that i placed on my footer)
