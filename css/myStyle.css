@@ -2,6 +2,8 @@
 /* Importing Fonts from "Google Fonts" in order to use them on my page's style.
    First will be used for my logo, second will be used on my navigation bar's style. */
 
+/* My page's basic style. I use a background i edited myself for the website, and put it on the center of the page, fixed.
+   At the same time i also set the background-color for just in case the page lags and delays to download/show the background.. as an alternative. */
 body
 {
 	background-image: url("../images/background.jpg");
@@ -12,6 +14,8 @@ body
 	
 }
 
+/* This is the style for the TEXT i placed under the Logo of my page. I also add opacity in order to make it "fainted" infront of my picture.
+People tend to put the logo's text into the Logo Image and have them binded. I did the same thing with the use of CSS. */
 p.logo
 {
 	font-family:'Kumar One Outline', cursive;
@@ -25,7 +29,7 @@ p.logo
 	width: 35%; 
 	opacity: 0.1;
 }
-
+/* Styling my text generally for my page. */
 p
 {
 	font-family:'Passion One';
@@ -34,7 +38,7 @@ p
 	color:white;
 	text-align:center;
 }
-
+/* Created a class that can be used with <p> and what I want to do is to actually replicate what we could do with <h1>, <h2> etc. */
 p.big
 {
 	font-family:Molle;
@@ -45,7 +49,7 @@ p.big
 	color:white;
 	text-align:center;
 }
-
+/* Same thing as with p.big, i just align it to the left in order to use it on my CV. */
 p.titles
 {
 	font-family:Molle;
@@ -56,7 +60,7 @@ p.titles
 	color:white;
 	text-align:left;
 }
-
+/* Created a class that can be used with <div> in order to be able to use specific styling on my Unordered list. */
 div.CVleft
 {
 	font-family:Molle;
@@ -66,7 +70,7 @@ div.CVleft
 	text-align:left;
 	padding-left: 30px;
 }
-
+/* Created a class that can be used with <ul> in order to be able to use specific styling on my Unordered list. */
 ul.cv
 {
 	font-family:Molle;
@@ -76,35 +80,35 @@ ul.cv
 	text-align:left;
 }
 
-/* unvisited link */
+/* unvisited link styling */
 a:link {
     color: white;
 }
 
-/* visited link */
+/* visited link styling */
 a:visited {
     color: white;
 }
 
-/* mouse over link */
+/* mouse over link styling */
 a:hover {
     color: #ffffcc;
 }
 
-/* selected link */
+/* selected link styling */
 a:active {
     color: white;
 }
 
-
+/* Created a class that can be used with <img> in order to put some specific characteristics on my Logo image. */
 img.logo 
 {
 	left: 0px;
 	border-radius: 50%;
-        margin: auto;
+    margin: auto;
 	position: relative;
 }
-
+/* Created a class that can be used with <img> in order to put some specific characteristics on my Footer images. */
 img.footer 
 {
     display: inline-block;
@@ -112,11 +116,11 @@ img.footer
     margin-right: auto;
     height: 30px;
 }
-
+/* Fixing the align of my Footer images to center. */
 #validations{
     text-align:center;
 }
-
+/* Creating my NavBar styling. Styling was taken from W3Schools. Link: http://www.w3schools.com/w3css/w3css_navigation.asp */
 .w3-navbar{
 	list-style-type:none;margin:0;padding:0;overflow:hidden
 	}
@@ -150,7 +154,9 @@ img.footer
 .w3-blue,.w3-hover-blue:hover{
 	color:#fff!important;background-color:#a6a6a6!important
 	}
-	
+/* Adding a CSS Flexbox because it is required by the assignment. Code was taken from the example of W3Schools: http://www.w3schools.com/css/tryit.asp?filename=trycss3_flexbox_flexline
+My Flexbox consists of flex containers and flex items in order to create a 3 collumn sorting like if i had my data on a table. */
+
 .flex-container {
     display: -webkit-flex;
     display: flex;
@@ -164,7 +170,7 @@ img.footer
     height: 200px;
     margin: 0px;
 }
-
+/* Styling of the Horizontal Rule that i will use on my page (Generally). */
 hr {
     width:100%; 
     margin:0 auto; 
@@ -172,8 +178,7 @@ hr {
     border-top:1px solid lightgrey; 
 
 }
-
-
+/* Styling of the Horizontal Rule that i will use on my page (Specifically on the footer) */
 hr.footer {
     width:50%; 
     margin:0 auto; 
@@ -181,7 +186,7 @@ hr.footer {
     border-top:1px solid lightgrey; 
 }
 
-
+/* Styling of the Image and Text on my "Bio" page. Placing the text on the left and the image on the right side */
 .gill {
 
     width: auto;
@@ -189,7 +194,7 @@ hr.footer {
     overflow: hidden;
 
 }
-
+/* Styling of the Image and Text on my "Bio" page. Placing the text on the left and the image on the right side */
 .gill img {
 
     margin-right: 15px;

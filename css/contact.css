@@ -11,7 +11,7 @@ the form to actually open an Email Client locally on your computer and try to se
 	-moz-font-smoothing:antialiased;
 	-o-font-smoothing:antialiased;
 }
-
+/* Styling of the container that will be showing as my FULL form for a Contact Form. Contains different fields as input text fields , buttons, etc. */
 .container {
 	max-width:400px;
 	width:100%;
@@ -21,25 +21,26 @@ the form to actually open an Email Client locally on your computer and try to se
 
 #contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea, #contact button[type="submit"] { font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif; }
 
+/* Styling of the Contact Form. */
 #contact {
 	background:#F9F9F9;
 	padding:25px;
 	margin:50px 0;
 }
-
+/* Styling of the heading3. */
 #contact h3 {
 	color: #F96;
 	display: block;
 	font-size: 30px;
 	font-weight: 400;
 }
-
+/* Styling of the heading4. */
 #contact h4 {
 	margin:5px 0 15px;
 	display:block;
 	font-size:13px;
 }
-
+/* Styling of the fields. */
 fieldset {
 	border: medium none !important;
 	margin: 0 0 10px;
@@ -47,7 +48,7 @@ fieldset {
 	padding: 0;
 	width: 100%;
 }
-
+/* Styling of the Email area. */
 #contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea {
 	width:100%;
 	border:1px solid #CCC;
@@ -55,20 +56,20 @@ fieldset {
 	margin:0 0 5px;
 	padding:10px;
 }
-
+/* Styling of the Email area on mouse's hover on it. */
 #contact input[type="text"]:hover, #contact input[type="email"]:hover, #contact input[type="tel"]:hover, #contact input[type="url"]:hover, #contact textarea:hover {
 	-webkit-transition:border-color 0.3s ease-in-out;
 	-moz-transition:border-color 0.3s ease-in-out;
 	transition:border-color 0.3s ease-in-out;
 	border:1px solid #AAA;
 }
-
+/* Styling of the Text area of my contact form. */
 #contact textarea {
 	height:100px;
 	max-width:100%;
   resize:none;
 }
-
+/* General Styling of the Button "Submit". */
 #contact button[type="submit"] {
 	cursor:pointer;
 	width:100%;
@@ -80,13 +81,14 @@ fieldset {
 	font-size:15px;
 }
 
+/* Styling of the Button "Submit" on mouse's hover on it. */
 #contact button[type="submit"]:hover {
 	background:#737373;
 	-webkit-transition:background 0.3s ease-in-out;
 	-moz-transition:background 0.3s ease-in-out;
 	transition:background-color 0.3s ease-in-out;
 }
-
+/* Styling of the Button "Submit" when it's active. */
 #contact button[type="submit"]:active { box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.5); }
 
 #contact input:focus, #contact textarea:focus {
