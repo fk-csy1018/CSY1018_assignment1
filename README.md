@@ -39,7 +39,7 @@ CSS rule and put a text (as a Welcome text in the beggining, then changed my min
 "website title"). I did this because i wanted to achieve to put the text ON TOP of the image in order to make it 
 look like a real website logo.
 
-Text added on a <p> class logo, styled with some characteristics to make it look more like a logo, and placed above the image
+Text added on a \<p>\ class logo, styled with some characteristics to make it look more like a logo, and placed above the image
 that I use as my webpage's logo. I also used a font from "Google Fonts" in order to make it look a bit better.
 
 I created my website's Navigation Bar as a list of elements (that work as links), then I make it act as a
