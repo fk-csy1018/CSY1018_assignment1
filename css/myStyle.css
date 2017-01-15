@@ -160,9 +160,9 @@ img.footer
 }
 
 .flex-item {
-    width: 550px;
-    height: 100px;
-    margin: 5px;
+    width: 600px;
+    height: 200px;
+    margin: 0px;
 }
 
 hr {
