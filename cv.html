@@ -55,6 +55,7 @@ styleset that I created for "nav" on my CSS file. -->
     </ul>
 </header>
     <hr>
+<!-- Adding 2 <br /> in order to fix the position of my title 2 pixels lower than the navbar-->
 <br /><br />
 <p class="big">my Curriculum Vitae.</p><br />
 <p>I had the passion about computers and coding since 1987 when i did my first steps in the IT field as a young developer by experimenting with coding on different languages without anyone's help, trying to create things to use on my computer on my own. It didn't make me rich but helped me see what I was meant to be working on as an adult. Adaptable to new technologies and committed to the dream of becoming the very best Developer world wide, I further decided to enroll on an amazing University and find my way into knowledge by asking questions to those who actually know.</p>
@@ -86,7 +87,8 @@ styleset that I created for "nav" on my CSS file. -->
       <li>Volunteer Debian Linux Developer</li>
     </ul>  
 </div>
-
+<!-- Adding a CSS Flexbox because it is required by the assignment. Code was taken from the example of W3Schools: http://www.w3schools.com/css/tryit.asp?filename=trycss3_flexbox_flexline
+My Flexbox consists of flex containers and flex items in order to create a 3 collumn sorting like if i had my data on a table. -->
 <div class="flex-container">
   <div class="flex-item"><p class="titles">Skills</p><br />
     <ul class="cv">
@@ -122,15 +124,17 @@ styleset that I created for "nav" on my CSS file. -->
       <li>Motorcycle Driving License</li>
     </ul>  
 </div>
-
-<br /><br />
+<!-- I use <br /> to get 1 line down just in order to push my footer on a specific height according to my taste. -->
+<br /><br /><br />
 <footer>
 <!-- Added Horizontal Rule just for the style, to distinguish my main content from the footer.
 And created the class footer on my CSS to add some extra attributes in order to place the HR always on the bottom of the page according
 to the browser's window. -->
 <hr class="footer">
 <p class="footer">Copyright ©2016 ~ 2017 by The <a href="http://www.northampton.ac.uk/">University of Northampton</a>, All Rights Reserved.</p>
+<!-- Adding the 2 images that link to the W3Schools Validator and adjust their position with the div id="validations" tag.. -->
 <div id="validations">
+<!-- Using target="_blank" in order to open the 2 links on my footer on a new window of my browser and not exit my page. -->
         <a href="http://validator.w3.org/check?uri=https://fkitsantas.github.io/CSY1018_assignment1/cv.html" target="_blank"><img class="footer"
                   src="images/valid-xhtml10.png" alt="Valid XHTML 5" height="31" width="88" /></a><a href="http://jigsaw.w3.org/css-validator/validator?uri=fkitsantas.github.io/CSY1018_assignment1/css/myStyle.css&profile=css3&usermedium=all&warning=1&vextwarning=" target="_blank">
                   <img class="footer" src="images/vcss.gif" alt="Valid CSS" /></a>

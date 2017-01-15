@@ -55,8 +55,9 @@ styleset that I created for "nav" on my CSS file. -->
     </ul>
 </header>
     <hr>
-    <br />
-    <p>Feel free to Contact me by filling out this form.</p>
+    <!-- Adding 2 <br /> in order to fix the position of my title 2 pixels lower than the navbar-->
+    <br /><br />
+    <p class="big">Feel free to Contact me by filling out this form.</p>
     <!-- COntact Form was taken from https://codepen.io/ssbalakumar/pen/uzDIA example, and modify it in order to adjust it to my webpage's needs.<br>
         Original example had more input boxes, and the method it used was different. I changed the code and use method="get" and action="mailto:email" in order for
         the form to actually open an Email Client locally on your computer and try to send the email. -->
@@ -82,7 +83,9 @@ And created the class footer on my CSS to add some extra attributes in order to 
 to the browser's window. -->
 <hr class="footer">
 <p class="footer">Copyright ©2016 ~ 2017 by The <a href="http://www.northampton.ac.uk/">University of Northampton</a>, All Rights Reserved.</p>
+<!-- Adding the 2 images that link to the W3Schools Validator and adjust their position with the div id="validations" tag.. -->
 <div id="validations">
+<!-- Using target="_blank" in order to open the 2 links on my footer on a new window of my browser and not exit my page. -->
         <a href="http://validator.w3.org/check?uri=https://fkitsantas.github.io/CSY1018_assignment1/contact.html" target="_blank"><img class="footer"
                   src="images/valid-xhtml10.png" alt="Valid XHTML 5" height="31" width="88" /></a><a href="http://jigsaw.w3.org/css-validator/validator?uri=fkitsantas.github.io/CSY1018_assignment1/css/contact.css&profile=css3&usermedium=all&warning=1&vextwarning=" target="_blank">
                   <img class="footer" src="images/vcss.gif" alt="Valid CSS" /></a>
