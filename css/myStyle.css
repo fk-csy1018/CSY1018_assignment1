@@ -59,6 +59,8 @@ p.big
 {
 	font-family:Molle;
 	font-style: normal;
+	/* text-decoration: underline; */
+	font-weight: bold;
 	font-size:24px;
 	color:white;
 	text-align:center;
@@ -141,4 +143,19 @@ hr.footer {
     margin:0 auto; 
     border:0px none white; 
     border-top:1px solid lightgrey; 
+}
+
+
+.gill {
+
+    width: auto;
+    padding: 20px;
+    overflow: hidden;
+
+}
+
+.gill img {
+
+    margin-right: 15px;
+    float: right;
 }
