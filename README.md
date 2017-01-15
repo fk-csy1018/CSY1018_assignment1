@@ -158,3 +158,30 @@ Then I am adding the code to show the favicon as it is requested as an extra to 
 <img src="images/mockup-contact.jpg" alt="Contact.html" />
 
 ---
+
+## HTML5 & CSS3 Validation by W3Schools.
+###HTML5 validation of INDEX.html
+<img src="images/valid-index.jpg" alt="Valid HTML5" />
+
+--
+
+###HTML5 validation of BIO.html
+<img src="images/valid-bio.jpg" alt="Valid HTML5" />
+--
+
+###HTML5 validation of CV.html
+<img src="images/valid-cv.jpg" alt="Valid HTML5" />
+
+--
+
+###HTML5 validation of CONTACT.html
+<img src="images/valid-contact.jpg" alt="Valid HTML5" />
+
+--
+
+###CSS3 validation of myStyle.css
+<img src="images/valid-myStyleCSS.jpg" alt="Valid CSS" />
+--
+
+###CSS3 validation of contact.css
+<img src="images/valid-contactCSS.jpg" alt="Valid CSS" />
