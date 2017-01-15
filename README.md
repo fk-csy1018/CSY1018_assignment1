@@ -48,6 +48,18 @@ i set the ID of this to nav, so everything on this unordered list is going to ge
 styleset that I created for "nav" on my CSS file.
 
 I am Listing my Links one by one on as linked elements in order to create my Navigation bar. Styling was taken from W3Schools. Link: http://www.w3schools.com/w3css/w3css_navigation.asp
-I use < br /> to get 1 line down just in order to push my footer on a specific height according to my taste.
+After my list was complete, i added the style on my css in order to make that ordered list appear in 1 line as a navigation bar. After that I'm closing the ul tag and the section of it with < /ul > < /div >
 
-After trying to validate my HTML5 code, i got a warning about the html tag and language, so i changed <html> to <html lang="en"> in order to fix it.
+Adding 2 <br /> in order to fix the position of my title 2 pixels lower than the navbar.
+After trying to validate my HTML5 code, i got a warning about the html tag and language, so i changed < html > to < html lang="en" > in order to fix it.
+
+Then I am dding some "welcome" text with 2 different sizes. 1 big for the actual "Welcome" and a smaller one for the descriptive text under my welcoming message.
+
+I use < br /> to get down the line just in order to push my footer on a specific height according to my taste. Then I am Declaring the "Footer" section of my page. The static content i need it to have on every page on the bottom.
+
+Added Horizontal Rule just for the style, to distinguish my main content from the footer.
+And created the class footer on my CSS to add some extra attributes in order to place the HR always on the bottom of the page according
+to the browser's window.
+
+Adding the 2 images that link to the W3Schools Validator and adjust their position with the div id="validations" tag, and Using target="_blank" in order to open the 2 links on my footer on a new window of my browser and not exit my page. 
+
