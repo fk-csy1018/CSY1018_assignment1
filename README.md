@@ -138,3 +138,15 @@ Then I am adding the code to show the favicon as it is requested as an extra to 
 <img src="images/navigation.jpg" alt="Navigation Diagram" />
 
 ## Mockups/Wireframes
+
+### Index.html
+<img src="images/mockup-index.jpg" alt="Index.html" />
+
+### Bio.html
+<img src="images/mockup-bio.jpg" alt="Bio.html" />
+
+### CV.html
+<img src="images/mockup-cv.jpg" alt="CV.html" />
+
+### Contact.html
+<img src="images/mockup-contact.jpg" alt="Contact.html" />
