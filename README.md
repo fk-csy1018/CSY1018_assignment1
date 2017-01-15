@@ -81,7 +81,7 @@ Same code as Index.html in order to generate the page style, then I am adding th
 
 I use a styled < div > and 2 stlyes of \<p> ( \<p> and <p class="big" ) in order to add my CV data placed the way I want them as a Heading and text under it, then I leave some data to be used with a FlexBox.
 
-Adding a CSS Flexbox because it is required by the assignment. Code was taken from the example of W3Schools: http://www.w3schools.com/css/tryit.asp?filename=trycss3_flexbox_flexline
+Adding a CSS Flexbox because it is required by the assignment. Code was taken from the example of W3Schools: http://www.w3schools.com/css/tryit.asp?filename=trycss3_flexbox_flexline<br>
 My Flexbox consists of flex containers and flex items in order to create a 3 collumn sorting like if i had my data on a table.
 
 Then I move to the Contact page.
@@ -92,3 +92,41 @@ Contact Form was taken from https://codepen.io/ssbalakumar/pen/uzDIA example, an
 Original example had more input boxes, and the method it used was different. I changed the code and use method="get" and action="mailto:email" in order for the form to actually open an Email Client locally on your computer and try to send the email.
 Since i took advantage of that ready code, i put it's CSS info on a different css file (contact.css) and link it, in order to show that you can use more than 1 .css files on an html page, instead of copying the code of it inside my main CSS style.
 
+Now Regarding my CSS Style file called myStyle.css.
+
+At the beggining of the file I am Importing Fonts from "Google Fonts" in order to use them on my page's style. First will be used for my logo, second will be used on my navigation bar's style.
+
+Then i set my page's basic style. I use a background i edited myself for the website, and put it on the center of the page, fixed. At the same time i also set the background-color for just in case the page lags and delays to download/show the background.. as an alternative.
+
+Then the style for the TEXT i placed under the Logo of my page. I also add opacity in order to make it "fainted" infront of my picture. People tend to put the logo's text into the Logo Image and have them binded. I did the same thing with the use of CSS.
+
+Then i am Styling my default \<p> , in order to make a standard text style to use on my page.
+
+Then I Created a class that can be used with \<p> and what I want to do is to actually replicate what we could do with \<h1>, \<h2> etc.
+
+I then create a p.titles class of \<p> . Same thing as with p.big, i just align it to the left in order to use it on my CV.
+
+Created a class that can be used with < div > in order to be able to use specific styling on my Unordered list.
+
+Created a class that can be used with < ul > in order to be able to use specific styling on my Unordered list. 
+
+I set the styling of an unvisited link.
+I set the styling of a visited link.
+I set the styling of a mouse over link.
+I set the styling of a selected link.
+
+Created a class that can be used with <img> in order to put some specific characteristics on my Logo image.
+
+Created a class that can be used with < img > in order to put some specific characteristics on my Footer images.
+
+Then i make a class in order to use it for fxing the align of my Footer images to center.
+
+Creating my NavBar styling. Styling was taken from W3Schools. Link: http://www.w3schools.com/w3css/w3css_navigation.asp
+
+Adding a CSS Flexbox because it is required by the assignment. Code was taken from the example of W3Schools: http://www.w3schools.com/css/tryit.asp?filename=trycss3_flexbox_flexline <br>
+My Flexbox consists of flex containers and flex items in order to create a 3 collumn sorting like if i had my data on a table.
+
+I am setting the style of the Horizontal Rule that i will use on my page (Generally).
+I am setting the style of the Horizontal Rule that i will use on my page (Specifically on the footer) 
+
+Then I am setting the style of the Image and Text on my "Bio" page. Placing the text on the left and the image on the right side
