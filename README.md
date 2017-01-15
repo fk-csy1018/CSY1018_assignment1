@@ -3,9 +3,8 @@
 ## Cover 
 
 Name: Kitsantas Fotios    
+Student ID: 17421808    
 GitHub Repository: https://github.com/fkitsantas/CSY1018_assignment1    
 Website Link (on GitHub): https://fkitsantas.github.io/CSY1018_assignment1/    
 
-CSY1018: Web Development    
-Assignment 1: Simple CV Portfolio    
-Deadline: 23:59 Sunday 15/01/2017
+<img src="images/cover.png" alt="Cover" />
