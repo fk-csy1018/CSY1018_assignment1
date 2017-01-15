@@ -127,6 +127,9 @@ Adding a CSS Flexbox because it is required by the assignment. Code was taken fr
 My Flexbox consists of flex containers and flex items in order to create a 3 collumn sorting like if i had my data on a table.
 
 I am setting the style of the Horizontal Rule that i will use on my page (Generally).
-I am setting the style of the Horizontal Rule that i will use on my page (Specifically on the footer) 
+I am setting the style of the Horizontal Rule that i will use on my page (Specifically on the footer).
 
-Then I am setting the style of the Image and Text on my "Bio" page. Placing the text on the left and the image on the right side
+Then I am setting the style of the Image and Text on my "Bio" page. Placing the text on the left and the image on the right side.
+
+Last, after checking the list of assignment's requirements i created a favicon with the use of Favicon Generator on http://www.favicon-generator.org/
+Then I am adding the code to show the favicon as it is requested as an extra to the assignment. Code was added inside < head > < / head> on every page.
