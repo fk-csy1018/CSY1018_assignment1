@@ -17,7 +17,9 @@ On this assignment our goal is to design and develop a Personal Webpage that con
 
 The way I implemented my website was done on steps.        
 
-Started by declaring the "Header" section of my page. The static content i need it to have on top of every page.
+Started by creating my index.html and myStyle.css file. The Index document as a base for my project that will have (and share) the structure that I would like to use on all of my pages, same as the CSS file that will have all the CSS rules that i need in order to achieve the style I would like my webpage to have.
+
+Declaring the "Header" section of my page. The static content i need it to have on top of every page.
 I include there the code for the music as it's not an element that will appear on page and I consider it as part of the header page.
 However, this could be placed anywhere on the HTML file.
 
@@ -63,3 +65,11 @@ to the browser's window.
 
 Adding the 2 images that link to the W3Schools Validator and adjust their position with the div id="validations" tag, and Using target="_blank" in order to open the 2 links on my footer on a new window of my browser and not exit my page. 
 
+Then I copy the code of the index.html and create 3 new documents with the same code, one for each section I need to have on my assignment. Bio, Cv, Contact.
+By having done that I already have the base to work on (the html code that creates my navigation bar and my whole page style) and I can change the actual information that appear on the middle of it (eg. Welcoming text of my index changes to CV data or Bio, or the Contact form).
+
+Then I move to Bio page.
+
+Same code as Index.html in order to generate the page style, then I am Adding a text description of the specific section of my page and after that I am Adding a picture of myself as "Gill Bate's picture". Text was styled from CSS with the use of \<p> and \<p class="big"> to distinguish the normal text and the Heading.
+
+Then I move to CV page.
