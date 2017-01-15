@@ -68,8 +68,17 @@ Adding the 2 images that link to the W3Schools Validator and adjust their positi
 Then I copy the code of the index.html and create 3 new documents with the same code, one for each section I need to have on my assignment. Bio, Cv, Contact.
 By having done that I already have the base to work on (the html code that creates my navigation bar and my whole page style) and I can change the actual information that appear on the middle of it (eg. Welcoming text of my index changes to CV data or Bio, or the Contact form).
 
-Then I move to Bio page.
+Then I move to the Bio page.
 
 Same code as Index.html in order to generate the page style, then I am Adding a text description of the specific section of my page and after that I am Adding a picture of myself as "Gill Bate's picture". Text was styled from CSS with the use of \<p> and \<p class="big"> to distinguish the normal text and the Heading.
 
-Then I move to CV page.
+Then I move to the CV page.
+
+Same code as Index.html in order to generate the page style, then I am adding the content of it.
+
+I use a styled < div > and 2 stlyes of \<p> ( \<p> and <p class="big" ) in order to add my CV data placed the way I want them as a Heading and text under it, then I leave some data to be used with a FlexBox.
+
+Adding a CSS Flexbox because it is required by the assignment. Code was taken from the example of W3Schools: http://www.w3schools.com/css/tryit.asp?filename=trycss3_flexbox_flexline
+My Flexbox consists of flex containers and flex items in order to create a 3 collumn sorting like if i had my data on a table.
+
+Then I move to the Contact page.
