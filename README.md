@@ -3,8 +3,8 @@
 
 Full Name: Kitsantas Fotios    
 Student ID: 17421808    
-GitHub Repository: https://github.com/fkitsantas/CSY1018_assignment1    
-GitHub ‘live’ URL: https://fkitsantas.github.io/CSY1018_assignment1/    
+GitHub Repository: https://github.com/fk-northampton/CSY1018_assignment1    
+GitHub ‘live’ URL: https://fk-northampton.github.io/CSY1018_assignment1/    
 
 <img src="images/cover.png" alt="Cover" />
 
